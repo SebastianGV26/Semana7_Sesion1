@@ -154,20 +154,7 @@ ul{
         font-weight: bold;
     }
 }
-@media (min-width: 1800px){
-    .Pregunta1{
-        display: none;
-    }
-    .Pregunta2{
-        display: none;
-    }
-    .Pregunta4{
-        display: none;
-    }
-    ul{
-        display: none;
-    }
-}
+
 
 /*Desktop First*/
 @media (max-width: 1800px) {
