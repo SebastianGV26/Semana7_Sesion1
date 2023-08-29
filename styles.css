@@ -10,10 +10,7 @@ body{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
-header{
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
+
 .Pregunta1{
     width: 100%;
     display: grid;
@@ -57,6 +54,21 @@ header{
     padding-bottom: 1rem;
 }
 
+ul{
+    height: 50px;
+    background-color: rgba(0, 0, 0, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+}
+.Lista__Item{
+    list-style: none;
+}
+.Lista__Item__Link{
+    text-decoration: none;
+    color: white;
+}
 /*Mobile first*/
 @media (min-width: 500px){
     .Pregunta1{
@@ -152,6 +164,9 @@ header{
     .Pregunta4{
         display: none;
     }
+    ul{
+        display: none;
+    }
 }
 
 /*Desktop First*/
@@ -189,5 +204,10 @@ header{
     }
     .Pregunta4 p{
         width: 100%;
+    }
+    ul{
+        min-height: 200px;
+        flex-direction: column;
+        background-color: rgba(7, 5, 5, 0.8);
     }
 }
